@@ -9,6 +9,8 @@ body {
 .container {
   background-color: #0f172a;
   width: 40%;
+  min-width: 250px;
+  margin-top: 20px;
   border-radius: 5px;
   padding: 20px;
   outline: 1px solid #64748b;
