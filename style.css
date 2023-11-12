@@ -1,0 +1,58 @@
+body {
+  background-color: #020617;
+  display: flex;
+  justify-content: center;
+  color: #f8fafc;
+  font-family: "Roboto";
+}
+
+.container {
+  background-color: #0f172a;
+  width: 40%;
+  border-radius: 5px;
+  padding: 20px;
+  outline: 1px solid #64748b;
+}
+
+input {
+  background: none;
+  border: none;
+  color: #f8fafc;
+}
+
+input:hover,
+input:focus {
+  border: none;
+  outline: none;
+}
+
+button {
+  margin-top: 10px;
+  background: none;
+  border: none;
+  border-radius: 10px;
+  outline: 1px solid #64748b;
+  color: #f8fafc;
+  width: 90px;
+  height: 30px;
+  font-weight: 900;
+}
+
+button:hover {
+  background-color: #f8fafc;
+  color: #020617;
+  outline: none;
+}
+
+.tasks-list > div {
+  margin-top: 20px;
+  display: flex;
+  height: fit-content;
+  align-items: end;
+}
+
+.tasks-list button {
+  margin-right: 10px;
+  width: fit-content;
+  height: fit-content;
+}
